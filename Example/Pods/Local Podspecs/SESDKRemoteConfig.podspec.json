@@ -1,22 +1,33 @@
 {
   "name": "SESDKRemoteConfig",
-  "version": "0.1.0",
-  "summary": "A short description of SESDKRemoteConfig.",
+  "version": "1.0.2.0",
+  "summary": "Official SolarEngineSDK for iOS.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/solarengine-sdk/SESDKRemoteConfig",
+  "homepage": "https://www.solar-engine.com",
   "license": {
-    "type": "MIT",
-    "file": "LICENSE"
+    "type": "Apache License, Version 2.0"
   },
   "authors": {
     "solarengine-sdk": "sdk@solar-engine.com"
   },
   "source": {
     "git": "https://github.com/solarengine-sdk/SESDKRemoteConfig.git",
-    "tag": "0.1.0"
+    "tag": "1.0.2.0"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "SESDKRemoteConfig/Classes/**/*"
+  "vendored_frameworks": "SESDKRemoteConfig/*.framework",
+  "dependencies": {
+    "SolarEngineSDK": [
+      "~> 1.1.8.0"
+    ]
+  },
+  "requires_arc": true,
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  }
 }

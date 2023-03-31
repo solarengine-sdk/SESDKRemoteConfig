@@ -30,10 +30,9 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'SESDKRemoteConfig/Classes/**/*'
-  s.vendored_frameworks = 'SESDKRemoteConfig/SESDKRemoteConfig.framework'
-
-  # s.frameworks = "CoreTelephony"
+  s.vendored_frameworks = 'SESDKRemoteConfig/*.framework'
+  s.dependency 'SolarEngineSDK' , '~> 1.1.8.0'
+  # s.frameworks = ""
   # s.libraries = ""
   s.requires_arc = true
   
