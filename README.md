@@ -23,7 +23,3 @@ pod 'SESDKRemoteConfig'
 ## Author
 
 solarengine-sdk, sdk@solar-engine.com
-
-## License
-
-SESDKRemoteConfig is available under the MIT license. See the LICENSE file for more info.
