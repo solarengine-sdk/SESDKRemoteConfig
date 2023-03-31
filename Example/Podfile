@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SESDKRemoteConfig_Tests' do
+  pod 'SESDKRemoteConfig', :path => '../'
+  
+  
+end
