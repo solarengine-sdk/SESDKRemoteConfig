@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SESDKRemoteConfig'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of SESDKRemoteConfig.'
+  s.version          = '1.0.2.0'
+  s.summary          = 'Official SESDKRemoteConfig for iOS.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,9 +21,9 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/solarengine-sdk/SESDKRemoteConfig'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.homepage         = 'https://www.solar-engine.com'
+  s.license          =  { :type => "Apache License, Version 2.0" }
+  s.summary          = 'Official SolarEngineSDK for iOS.'
   s.author           = { 'solarengine-sdk' => 'sdk@solar-engine.com' }
   s.source           = { :git => 'https://github.com/solarengine-sdk/SESDKRemoteConfig.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
@@ -31,12 +31,12 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'SESDKRemoteConfig/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'SESDKRemoteConfig' => ['SESDKRemoteConfig/Assets/*.png']
-  # }
+  s.vendored_frameworks = 'SESDKRemoteConfig/SESDKRemoteConfig.framework'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  # s.frameworks = "CoreTelephony"
+  # s.libraries = ""
+  s.requires_arc = true
+  
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end
