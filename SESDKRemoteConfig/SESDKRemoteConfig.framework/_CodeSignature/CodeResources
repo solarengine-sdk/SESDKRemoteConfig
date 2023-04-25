@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/SESDKRemoteConfig.h</key>
 		<data>
-		50TsZ+FWdRCNjmZvaIPLPb91+Cc=
+		owKIIVjlnGZ5okNv63ZkQZCGWzI=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -23,11 +23,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			50TsZ+FWdRCNjmZvaIPLPb91+Cc=
+			owKIIVjlnGZ5okNv63ZkQZCGWzI=
 			</data>
 			<key>hash2</key>
 			<data>
-			5A0xHYAxDKoKJfETOJP1p1YH0ARvqECt9XvTNbJLEFw=
+			/FV20ugrBMEc3JyWOEaDYeQZyDeOaO7CXcGhELXCY2s=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

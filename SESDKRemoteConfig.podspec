@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SESDKRemoteConfig'
-  s.version          = '1.0.2.0'
+  s.version          = '1.0.3.0'
   s.summary          = 'Official SESDKRemoteConfig for iOS.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.vendored_frameworks = 'SESDKRemoteConfig/*.framework'
-  s.dependency 'SolarEngineSDK' , '~> 1.1.8.0'
+  s.dependency 'SolarEngineSDK' , '~> 1.1.9.0'
   # s.frameworks = ""
   # s.libraries = ""
   s.requires_arc = true

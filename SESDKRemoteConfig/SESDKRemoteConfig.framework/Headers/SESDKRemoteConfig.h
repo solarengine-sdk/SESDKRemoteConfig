@@ -9,7 +9,7 @@
 #import <SolarEngineSDK/SolarEngineSDK.h>
 #import <objc/runtime.h>
 
-#define SERCSDKVersion @"1.0.2.0"
+#define SERCSDKVersion @"1.0.3.0"
 
 typedef NS_ENUM(NSInteger, SERCMergeType) {
     SERCMergeTypeDefault      = 0, // 默认策略，读取缓存配置+默认配置跟服务端配置合并
