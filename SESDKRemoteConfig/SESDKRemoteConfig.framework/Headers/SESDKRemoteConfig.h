@@ -9,12 +9,7 @@
 #import <SolarEngineSDK/SolarEngineSDK.h>
 #import <objc/runtime.h>
 
-#define SERCSDKVersion @"1.0.3.0"
-
-typedef NS_ENUM(NSInteger, SERCMergeType) {
-    SERCMergeTypeDefault      = 0, // 默认策略，读取缓存配置+默认配置跟服务端配置合并
-    SERCMergeTypeUser         = 1, // App版本更新时，使用默认配置+服务端合并（丢弃缓存配置）
-};
+#define SERCSDKVersion @"1.1.0.0"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -91,63 +86,6 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)setDebug:(BOOL)isDebug;
 
-
-@end
-
-
-
-
-
-@interface SERemoteConfig : NSObject
-
-/**
- 线参数SDK启用开关，默认为关闭状态
-*/
-@property (nonatomic, assign) BOOL enable;
-
-/**
-自定义ID, 用来匹配用户在后台设置规则时设置的自定义ID
-*/
-@property (nonatomic, strong) NSDictionary *customIDProperties;
-
-/**
- * 自定义ID 事件属性
- */
-@property (nonatomic, strong) NSDictionary *customIDEventProperties;
-
-/**
- * 自定义ID 用户属性
- */
-@property (nonatomic, strong) NSDictionary *customIDUserProperties;
-
-
-/**
-SDK配置合并策略，默认情况下服务端配置跟本地缓存配置合并
-ENUM：SERCMergeTypeUser 在App版本更新时会清除缓存配置
-*/
-@property (nonatomic, assign) SERCMergeType mergeType;
-
-/**
-请求后台配置轮询间隔，SDK初始化后默认每隔30分钟会请求一次服务端配置
-pollInterval: 默认30分钟，支持设置的区间 30分钟 -- 24小时，单位：分钟
-*/
-@property (nonatomic, assign) int pollInterval;
-
-/**
- *
- * 设置自定义 URL。需在 SDK 初始化之前调用
- */
-@property(nonatomic, assign, nullable) NSString *customURL;
-
-/// 是否开启 本地调试日志（不设置时默认不开启 本地日志）
-@property (nonatomic, assign) BOOL logEnabled;
-
-
-@end
-
-@interface SEConfig (SERemoteConfig)
-
-@property (nonatomic, strong) SERemoteConfig *remoteConfig;
 
 @end
 

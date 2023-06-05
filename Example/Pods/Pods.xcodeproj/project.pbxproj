@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = SolarEngineSDK;
+			productName = SolarEngineSDK;
 		};
 		68BE633527960C5F1A4D33A677F12BCB /* SESDKRemoteConfig */ = {
 			isa = PBXAggregateTarget;
@@ -25,6 +26,7 @@
 				0CD671F4BE799D84F454EF0CB32A026B /* PBXTargetDependency */,
 			);
 			name = SESDKRemoteConfig;
+			productName = SESDKRemoteConfig;
 		};
 /* End PBXAggregateTarget section */
 
@@ -59,15 +61,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		048F56579FDC53EFF5E81B109A9B7126 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		048F56579FDC53EFF5E81B109A9B7126 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		08DD998758A51674FE969331D9E96EF9 /* Pods-SESDKRemoteConfig_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SESDKRemoteConfig_Tests-dummy.m"; sourceTree = "<group>"; };
 		0B91E572DC08448230DDFBC68C4ADFDE /* SESDKRemoteConfig.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SESDKRemoteConfig.framework; path = SESDKRemoteConfig/SESDKRemoteConfig.framework; sourceTree = "<group>"; };
 		2548AB64A0AADFBC6D8C1B3C513A9C2C /* Pods-SESDKRemoteConfig_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SESDKRemoteConfig_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		60AA0202E17C458A072A3F1D864CBE8E /* SESDKRemoteConfig.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SESDKRemoteConfig.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		60AA0202E17C458A072A3F1D864CBE8E /* SESDKRemoteConfig.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SESDKRemoteConfig.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		828130CED991B990DC1839344E527CD0 /* SESDKRemoteConfig.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SESDKRemoteConfig.debug.xcconfig; sourceTree = "<group>"; };
 		8DC68896A2791AA7A2724D4976E69BD2 /* SolarEngineSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SolarEngineSDK.release.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0AE3E873AAE8390CC0F31AE90CD25D0 /* Pods-SESDKRemoteConfig_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SESDKRemoteConfig_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B2C8E298682FF2FC5176CE84A877374F /* Pods-SESDKRemoteConfig_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SESDKRemoteConfig_Tests"; path = Pods_SESDKRemoteConfig_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA26EC74BB909D2F57B942E7892A6FBA /* SESDKRemoteConfig.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SESDKRemoteConfig.release.xcconfig; sourceTree = "<group>"; };
@@ -75,7 +77,7 @@
 		C04E678A9A2D1110F8859D80ADE7B357 /* Pods-SESDKRemoteConfig_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SESDKRemoteConfig_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C13FDFD2B499F7D5A30F49EEBA9A1514 /* Pods-SESDKRemoteConfig_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SESDKRemoteConfig_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C6141345412D402479383F0FAD7D7C89 /* Pods-SESDKRemoteConfig_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SESDKRemoteConfig_Tests.modulemap"; sourceTree = "<group>"; };
-		CB84011A09C42813F7B3B4454226E646 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CB84011A09C42813F7B3B4454226E646 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E982CE568BFB66702B62142C9204D9A6 /* SolarEngineSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SolarEngineSDK.framework; path = SolarEngineSDK/SolarEngineSDK.framework; sourceTree = "<group>"; };
 		F28AE871C2B289CE9C358AACB98BB57B /* Pods-SESDKRemoteConfig_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SESDKRemoteConfig_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F5DE81D4B5FC52869201DAFE8E340F40 /* SolarEngineSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SolarEngineSDK.debug.xcconfig; sourceTree = "<group>"; };
@@ -157,7 +159,6 @@
 				4B31A6A27F3EDC742F9DE14B142F93E7 /* Frameworks */,
 				C71F97731CC2690D210F34A1D71AD74A /* Support Files */,
 			);
-			name = SolarEngineSDK;
 			path = SolarEngineSDK;
 			sourceTree = "<group>";
 		};
@@ -460,8 +461,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
