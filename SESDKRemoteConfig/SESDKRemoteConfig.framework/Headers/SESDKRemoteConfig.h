@@ -6,10 +6,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <SolarEngineSDK/SolarEngineSDK.h>
 #import <objc/runtime.h>
 
-#define SERCSDKVersion @"1.1.0.0"
+#define SERCSDKVersion @"1.1.1.0"
 
 NS_ASSUME_NONNULL_BEGIN
 

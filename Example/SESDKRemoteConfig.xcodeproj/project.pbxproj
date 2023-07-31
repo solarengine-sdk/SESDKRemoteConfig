@@ -30,7 +30,7 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		836CB06DD236C2482270C42A /* Pods-SESDKRemoteConfig_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SESDKRemoteConfig_Tests.release.xcconfig"; path = "Target Support Files/Pods-SESDKRemoteConfig_Tests/Pods-SESDKRemoteConfig_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F6AA07B175B5A05A90EECEA7 /* SESDKRemoteConfig.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SESDKRemoteConfig.podspec; path = ../SESDKRemoteConfig.podspec; sourceTree = "<group>"; };
+		F6AA07B175B5A05A90EECEA7 /* SESDKRemoteConfig.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SESDKRemoteConfig.podspec; path = ../SESDKRemoteConfig.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
