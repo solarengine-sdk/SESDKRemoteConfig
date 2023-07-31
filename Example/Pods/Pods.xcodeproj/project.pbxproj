@@ -7,49 +7,25 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		0D26F1A585650DF81740294FBA58FB29 /* SolarEngineSDK */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 860ABC6A6DE74679F51FC6B624433833 /* Build configuration list for PBXAggregateTarget "SolarEngineSDK" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = SolarEngineSDK;
-		};
 		68BE633527960C5F1A4D33A677F12BCB /* SESDKRemoteConfig */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = BCFCDD969562044DF2FD0A88127BF98E /* Build configuration list for PBXAggregateTarget "SESDKRemoteConfig" */;
+			buildConfigurationList = F7550FD7F316272CE5D2356FD60BAD72 /* Build configuration list for PBXAggregateTarget "SESDKRemoteConfig" */;
 			buildPhases = (
 			);
 			dependencies = (
-				0CD671F4BE799D84F454EF0CB32A026B /* PBXTargetDependency */,
 			);
 			name = SESDKRemoteConfig;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		2CDB7E053984CDF4A4C85531881EBC12 /* Pods-SESDKRemoteConfig_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C13FDFD2B499F7D5A30F49EEBA9A1514 /* Pods-SESDKRemoteConfig_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B40D70C590FF34C488B18C2D308ADB5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E08E566A03CB09E6337103CDEA591B8A /* Pods-SESDKRemoteConfig_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DD998758A51674FE969331D9E96EF9 /* Pods-SESDKRemoteConfig_Tests-dummy.m */; };
+		83B1A8EC19549284855DAB61838ED9F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		85AB12F328109EE9A4F1548C03C353C6 /* Pods-SESDKRemoteConfig_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C13FDFD2B499F7D5A30F49EEBA9A1514 /* Pods-SESDKRemoteConfig_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA04DB8246A2A943A85A64BA58B10D5C /* Pods-SESDKRemoteConfig_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DD998758A51674FE969331D9E96EF9 /* Pods-SESDKRemoteConfig_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0D9500DC09F4736608013120905DF311 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0D26F1A585650DF81740294FBA58FB29;
-			remoteInfo = SolarEngineSDK;
-		};
-		49A8348592734B6FAC02730BE9111325 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0D26F1A585650DF81740294FBA58FB29;
-			remoteInfo = SolarEngineSDK;
-		};
-		9B233549AA812BB03401B5BC0510F0CC /* PBXContainerItemProxy */ = {
+		9D35C779666CB010F8E69B24B5FA0E58 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -66,7 +42,6 @@
 		60AA0202E17C458A072A3F1D864CBE8E /* SESDKRemoteConfig.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SESDKRemoteConfig.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		828130CED991B990DC1839344E527CD0 /* SESDKRemoteConfig.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SESDKRemoteConfig.debug.xcconfig; sourceTree = "<group>"; };
-		8DC68896A2791AA7A2724D4976E69BD2 /* SolarEngineSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SolarEngineSDK.release.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0AE3E873AAE8390CC0F31AE90CD25D0 /* Pods-SESDKRemoteConfig_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SESDKRemoteConfig_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B2C8E298682FF2FC5176CE84A877374F /* Pods-SESDKRemoteConfig_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SESDKRemoteConfig_Tests"; path = Pods_SESDKRemoteConfig_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,31 +51,21 @@
 		C13FDFD2B499F7D5A30F49EEBA9A1514 /* Pods-SESDKRemoteConfig_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SESDKRemoteConfig_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C6141345412D402479383F0FAD7D7C89 /* Pods-SESDKRemoteConfig_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SESDKRemoteConfig_Tests.modulemap"; sourceTree = "<group>"; };
 		CB84011A09C42813F7B3B4454226E646 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		E982CE568BFB66702B62142C9204D9A6 /* SolarEngineSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SolarEngineSDK.framework; path = SolarEngineSDK/SolarEngineSDK.framework; sourceTree = "<group>"; };
 		F28AE871C2B289CE9C358AACB98BB57B /* Pods-SESDKRemoteConfig_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SESDKRemoteConfig_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F5DE81D4B5FC52869201DAFE8E340F40 /* SolarEngineSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SolarEngineSDK.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A778B6D13A4EDE868155CBD2DF7556D1 /* Frameworks */ = {
+		9776BF65AF45D6CF835B804446A9E132 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B40D70C590FF34C488B18C2D308ADB5B /* Foundation.framework in Frameworks */,
+				83B1A8EC19549284855DAB61838ED9F6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		079093B11AE0B30F8CD6D16D70105769 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9142B85ACC1E55EBD7EA1808912B9DE0 /* SolarEngineSDK */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		3200525CE17DF57E8F462BCACA31E48C /* Pods-SESDKRemoteConfig_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,14 +80,6 @@
 			);
 			name = "Pods-SESDKRemoteConfig_Tests";
 			path = "Target Support Files/Pods-SESDKRemoteConfig_Tests";
-			sourceTree = "<group>";
-		};
-		4B31A6A27F3EDC742F9DE14B142F93E7 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E982CE568BFB66702B62142C9204D9A6 /* SolarEngineSDK.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -151,16 +108,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9142B85ACC1E55EBD7EA1808912B9DE0 /* SolarEngineSDK */ = {
-			isa = PBXGroup;
-			children = (
-				4B31A6A27F3EDC742F9DE14B142F93E7 /* Frameworks */,
-				C71F97731CC2690D210F34A1D71AD74A /* Support Files */,
-			);
-			name = SolarEngineSDK;
-			path = SolarEngineSDK;
-			sourceTree = "<group>";
-		};
 		985F6211845EC38CB12ED351F8B15B2F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,23 +126,12 @@
 			path = "Example/Pods/Target Support Files/SESDKRemoteConfig";
 			sourceTree = "<group>";
 		};
-		C71F97731CC2690D210F34A1D71AD74A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F5DE81D4B5FC52869201DAFE8E340F40 /* SolarEngineSDK.debug.xcconfig */,
-				8DC68896A2791AA7A2724D4976E69BD2 /* SolarEngineSDK.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SolarEngineSDK";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				985F6211845EC38CB12ED351F8B15B2F /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				079093B11AE0B30F8CD6D16D70105769 /* Pods */,
 				FD0EBE5D9738F2B8D2E568574729EB7E /* Products */,
 				DA22E1B4508FFF5A4831F02C32A1D830 /* Targets Support Files */,
 			);
@@ -239,11 +175,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		9150954DE9AD554EB5728F43216CCBBB /* Headers */ = {
+		87593AAB675EBC36D86F33A80E51C2A0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CDB7E053984CDF4A4C85531881EBC12 /* Pods-SESDKRemoteConfig_Tests-umbrella.h in Headers */,
+				85AB12F328109EE9A4F1548C03C353C6 /* Pods-SESDKRemoteConfig_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,18 +188,17 @@
 /* Begin PBXNativeTarget section */
 		35850F6C76B85CEC9130F0468AE2B636 /* Pods-SESDKRemoteConfig_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A813B59540773916C54CA2569865C170 /* Build configuration list for PBXNativeTarget "Pods-SESDKRemoteConfig_Tests" */;
+			buildConfigurationList = 47570711B19DC8DD09DF50F7D946DFF9 /* Build configuration list for PBXNativeTarget "Pods-SESDKRemoteConfig_Tests" */;
 			buildPhases = (
-				9150954DE9AD554EB5728F43216CCBBB /* Headers */,
-				C4905ADE74397F6A2B49F0D18E20781C /* Sources */,
-				A778B6D13A4EDE868155CBD2DF7556D1 /* Frameworks */,
-				F55198CDEBA4D8D5BC44016CF40A5063 /* Resources */,
+				87593AAB675EBC36D86F33A80E51C2A0 /* Headers */,
+				16698E623D5A2B47A3CD6A91F5DFDBD6 /* Sources */,
+				9776BF65AF45D6CF835B804446A9E132 /* Frameworks */,
+				AB14B00E489738846ACB9667CACB58D4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0B589D99649E2DD2C3360494AAEFA8DB /* PBXTargetDependency */,
-				D02CFE230FA878AC23E1C3B7053F6504 /* PBXTargetDependency */,
+				FDDC5C03DE5734C81A176A1019622C2C /* PBXTargetDependency */,
 			);
 			name = "Pods-SESDKRemoteConfig_Tests";
 			productName = Pods_SESDKRemoteConfig_Tests;
@@ -294,13 +229,12 @@
 			targets = (
 				35850F6C76B85CEC9130F0468AE2B636 /* Pods-SESDKRemoteConfig_Tests */,
 				68BE633527960C5F1A4D33A677F12BCB /* SESDKRemoteConfig */,
-				0D26F1A585650DF81740294FBA58FB29 /* SolarEngineSDK */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F55198CDEBA4D8D5BC44016CF40A5063 /* Resources */ = {
+		AB14B00E489738846ACB9667CACB58D4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -310,69 +244,27 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C4905ADE74397F6A2B49F0D18E20781C /* Sources */ = {
+		16698E623D5A2B47A3CD6A91F5DFDBD6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E08E566A03CB09E6337103CDEA591B8A /* Pods-SESDKRemoteConfig_Tests-dummy.m in Sources */,
+				FA04DB8246A2A943A85A64BA58B10D5C /* Pods-SESDKRemoteConfig_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0B589D99649E2DD2C3360494AAEFA8DB /* PBXTargetDependency */ = {
+		FDDC5C03DE5734C81A176A1019622C2C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SESDKRemoteConfig;
 			target = 68BE633527960C5F1A4D33A677F12BCB /* SESDKRemoteConfig */;
-			targetProxy = 9B233549AA812BB03401B5BC0510F0CC /* PBXContainerItemProxy */;
-		};
-		0CD671F4BE799D84F454EF0CB32A026B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SolarEngineSDK;
-			target = 0D26F1A585650DF81740294FBA58FB29 /* SolarEngineSDK */;
-			targetProxy = 49A8348592734B6FAC02730BE9111325 /* PBXContainerItemProxy */;
-		};
-		D02CFE230FA878AC23E1C3B7053F6504 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SolarEngineSDK;
-			target = 0D26F1A585650DF81740294FBA58FB29 /* SolarEngineSDK */;
-			targetProxy = 0D9500DC09F4736608013120905DF311 /* PBXContainerItemProxy */;
+			targetProxy = 9D35C779666CB010F8E69B24B5FA0E58 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		24510A8CDD38195CC85DF23440C7B306 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 828130CED991B990DC1839344E527CD0 /* SESDKRemoteConfig.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		57C4A33DDDC69FFEC379A198FCD9A65D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5DE81D4B5FC52869201DAFE8E340F40 /* SolarEngineSDK.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		68D6F075CBE8AAE3DB6FA618361FD3A4 /* Debug */ = {
+		3D9967261A680B72E1A5513F16573B74 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C04E678A9A2D1110F8859D80ADE7B357 /* Pods-SESDKRemoteConfig_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -405,6 +297,22 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		4C184CC9BDFBDE73B152BE1DE95DE84F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA26EC74BB909D2F57B942E7892A6FBA /* SESDKRemoteConfig.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -468,19 +376,38 @@
 			};
 			name = Release;
 		};
-		941255B375F06312CF5FA6D5F95889A5 /* Release */ = {
+		955085EB776EF565F033BDC97E0A7BB2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA26EC74BB909D2F57B942E7892A6FBA /* SESDKRemoteConfig.release.xcconfig */;
+			baseConfigurationReference = 2548AB64A0AADFBC6D8C1B3C513A9C2C /* Pods-SESDKRemoteConfig_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SESDKRemoteConfig_Tests/Pods-SESDKRemoteConfig_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SESDKRemoteConfig_Tests/Pods-SESDKRemoteConfig_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -550,9 +477,9 @@
 			};
 			name = Debug;
 		};
-		D3939DB2441180B5BE98988EDA920C69 /* Release */ = {
+		DB146D07154A5D0B2E82A14198749318 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8DC68896A2791AA7A2724D4976E69BD2 /* SolarEngineSDK.release.xcconfig */;
+			baseConfigurationReference = 828130CED991B990DC1839344E527CD0 /* SESDKRemoteConfig.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -562,48 +489,21 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
-		};
-		D438B17067E0A79B1305726C6E8FB862 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2548AB64A0AADFBC6D8C1B3C513A9C2C /* Pods-SESDKRemoteConfig_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SESDKRemoteConfig_Tests/Pods-SESDKRemoteConfig_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SESDKRemoteConfig_Tests/Pods-SESDKRemoteConfig_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		47570711B19DC8DD09DF50F7D946DFF9 /* Build configuration list for PBXNativeTarget "Pods-SESDKRemoteConfig_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D9967261A680B72E1A5513F16573B74 /* Debug */,
+				955085EB776EF565F033BDC97E0A7BB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -613,29 +513,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		860ABC6A6DE74679F51FC6B624433833 /* Build configuration list for PBXAggregateTarget "SolarEngineSDK" */ = {
+		F7550FD7F316272CE5D2356FD60BAD72 /* Build configuration list for PBXAggregateTarget "SESDKRemoteConfig" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				57C4A33DDDC69FFEC379A198FCD9A65D /* Debug */,
-				D3939DB2441180B5BE98988EDA920C69 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A813B59540773916C54CA2569865C170 /* Build configuration list for PBXNativeTarget "Pods-SESDKRemoteConfig_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				68D6F075CBE8AAE3DB6FA618361FD3A4 /* Debug */,
-				D438B17067E0A79B1305726C6E8FB862 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BCFCDD969562044DF2FD0A88127BF98E /* Build configuration list for PBXAggregateTarget "SESDKRemoteConfig" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				24510A8CDD38195CC85DF23440C7B306 /* Debug */,
-				941255B375F06312CF5FA6D5F95889A5 /* Release */,
+				DB146D07154A5D0B2E82A14198749318 /* Debug */,
+				4C184CC9BDFBDE73B152BE1DE95DE84F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

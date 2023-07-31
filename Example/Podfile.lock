@@ -1,22 +1,15 @@
 PODS:
-  - SESDKRemoteConfig (1.1.0.0):
-    - SolarEngineSDK (~> 1.2.0.0)
-  - SolarEngineSDK (1.2.0.0)
+  - SESDKRemoteConfig (1.1.1.0)
 
 DEPENDENCIES:
   - SESDKRemoteConfig (from `../SESDKRemoteConfig.podspec`)
-
-SPEC REPOS:
-  trunk:
-    - SolarEngineSDK
 
 EXTERNAL SOURCES:
   SESDKRemoteConfig:
     :path: "../SESDKRemoteConfig.podspec"
 
 SPEC CHECKSUMS:
-  SESDKRemoteConfig: 9a22b793f764b062410ff7e8fdf9e5e94c18710f
-  SolarEngineSDK: d3e8aa3327cf1f94add4c95984955c4aa97531b6
+  SESDKRemoteConfig: eec86866e5b16e3a0e775c84519f419c4ce28bad
 
 PODFILE CHECKSUM: fc7e270bf447c14a96ee4d47ac5fb036592d535a
 
