@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SESDKRemoteConfig'
-  s.version          = '1.2.6.1'
+  s.version          = '1.2.7.0'
   s.summary          = 'Official SESDKRemoteConfig for iOS.'
 
 # This description is used to generate tags and improve search results.
